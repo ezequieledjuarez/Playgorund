@@ -1,0 +1,98 @@
+<!--
+¿Qué pensás que va a pasar?
+Repasemos algunas etiquetas de línea que conocemos hasta el momento: <img>, <span>, <a>, <button>, <input>, <span>.
+
+¿Cuál es su comportamiento? Las mismas ocupan sólo el ancho de su contenido.
+
+En este ejercicio queremos que juegues un poco con ese concepto.
+
+Te damos un párrafo definido en el index.html y queremos que elijas dos palabras, las que vos quieras, y que:
+
+a una la rodees con la etiqueta <span> 
+a la otra la rodees con la etiqueta <a>  para generar un hipervínculo
+Cuanto termines, no olvides mirar el resultado en el navegador, ¿que pensás que va a pasar?
+
+
+<html>
+  <head>
+    <title>Etiquetas de línea</title>
+  </head>
+  <body>
+    <p><span> tomates caminan por la calle</span>. <a href=""> Papá tomate</a>, mamá tomate y bebé tomate. El bebé tomate se despista y papá tomate se enfada muchísimo. Vuelve atrás, le aplasta y dice: Catch'up.</p>
+  </body>
+</html>
+
+El comportamiento del texto no se modifica y no aparece ningun salto de linea
+-->
+
+<!-- 
+Jugando con div
+Repasemos algunas etiquetas de bloque que conocemos hasta el momento: <div>, <p>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <ul>, <ol>, <li>, <form>, <header>, <footer>, <section>, <article>.
+
+¿Cuál es su comportamiento? Las mismas ocupan el 100% del ancho de su etiqueta contenedora.
+
+En este ejercicio queremos que juegues un poco con ese concepto.
+
+Vamos a generar un salto de línea en el texto que te damos definido en el index.html. Para eso, elegí la palabra que quieras del texto y rodeala con la etiqueta <div>.
+
+Cuanto termines, no olvides mirar el resultado en el navegador, ¿que pensás que va a pasar?
+
+<html>
+  <head>
+    <title>Etiquetas de bloque</title>
+  </head>
+  <body>
+    <p> <div>Tres tomates caminan por la calle.</div> Papá tomate, mamá tomate y bebé tomate. El bebé tomate se despista y papá tomate se enfada muchísimo. Vuelve atrás, le aplasta y dice: Catch'up.</p>
+  </body>
+</html>
+-->
+
+<!-- 
+    Propiedad display
+Cambiemos el comportamiento de algunos elementos.
+
+En el index.html tenemos una pequeña estructura definida con cinco elementos. Para cada uno de esos elementos tenemos también definidas algunas reglas de css en el archivo style.css
+
+En este ejercicio, queremos que juegues un poco con la propiedad display. Para eso, te pedimos que:
+
+Al <div> con clase "div-arriba" lo conviertas en un elemento de línea 
+Al <span> con clase "span-chiquito" lo conviertas en un elemento en bloque
+Al <div> con clase "div-abajo" lo ocultes para que no aparezca en el navegador, pero, ojo ¡sin borrarlo del html!
+-->
+
+<html>
+
+<head>
+    <title>Modificando comportamientos</title>
+    <link rel="stylesheet" href="14_style.css">
+</head>
+
+<body>
+    <div class="div-arriba">Soy un div y soy un elemento de bloque.</div>
+    <span class="span-grande">Yo soy un span y ocupo sólo el ancho de mi contenido.</span>
+    <span class="span-chiquito">Yo soy un span más chiquito.</span>
+    <span>Yo minúsculo</span>
+    <div class="div-abajo">No se olviden de mí que también soy un div.</div>
+</body>
+
+</html>
+
+<!--
+ Hora de escribir algunas etiquetas semánticas!
+
+Te pedimos que, dentro de la estructura que te damos definida en el archivo index.html, escribas y pruebes las etiquetas <header> ,<section> y <footer>. Adicionalmente, queremos que escribas, dentro de <section>, dos etiquetas <article>.
+Recordá agregarles contenido de texto a todas estas etiquetas para poder visualizar cómo se ve en el navegador.   
+
+<html>
+  <head>
+    <title>Estructura semántica</title>
+  </head>
+  <body>
+<header> Esto es un encabezado</header>
+<section>
+  <article>Esta</article> es la seccion en la cual van mas <article> etiquetas </article>
+</section>
+<footer>Este es el pie de página</footer>
+  </body>
+</html>
+-->
